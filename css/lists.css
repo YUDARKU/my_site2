@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body{
+    background-color: lightgreen
+}
+p{
+    font-size: 50px;
+    text-align: center;
+    background-color: indigo;
+    color: orange;
+    font-family: 'Permanent Marker', cursive;
+}
+ul{
+    font-size: 24px;
+    color: purple;
+
+}
+.l1 li{
+    padding: 10px;
+}
+.l2 li::marker{
+    color: gold;
+}
+.l1 li::marker{
+    color: lime;
+    font-size: 1.2em;
+}

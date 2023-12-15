@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    background-color: lightgreen;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    color: orange;
+    background-color: purple;
+    font-family: 'Pacifico', cursive;
+}
+table{
+    border: double 5px purple;
+    font-size: 24px;
+    width: 50%;
+    border-collapse: separate;
+    margin: auto;
+}
+th,td{
+    border: solid 2px purple;
+    width: 25%;
+}
+tr:hover{
+    background-color: lightgray;
+}
+td:hover{
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url(https://www.bing.com/th/id/OGC.c0c8c0f700208d65213b8611d64944c2?pid=1.7&rurl=https%3a%2f%2f78.media.tumblr.com%2f149fde84a581337a2623cc9bba0b5d66%2ftumblr_oaxh24U0651txeruoo1_540.gif&ehk=5u3K%2bnR22e6MWq8pNBv2Ib6gxkO0rTMAuCg6swyfSOs%3d);
+    font-weight: 700;
+    color: indigo;
+    font-size: 1.2em;
+}
+tr:nth-child(even){
+    background-color: lightpink;
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+caption{
+    font-size: 48px;
+    background: linear-gradient(to left,red,orange,yellow,green,lightblue,indigo,purple);
+    
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+body{
+    background-color: lightsalmon;
+}
+p{
+    font-size: 50px;
+    color: yellow;
+    background-color: lightskyblue;
+}
+.ex1{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ex2{
+    font-family: cursive;
+    font-family: 130;
+}
+.ex3{
+    font-family: 'Kalnia', cursive;
+}
+.ex4{
+    font-family: 'Silkscreen', sans-serif;
+}
+.ex5{
+    font-family: 'Preahvihear', sans-serif;
+    color: red;
+    background-color: black;
+}
+.ex6{
+    text-shadow: 0 0 10px darkblue;
+}
+.ex7{
+    text-shadow: 3px -3px  darkblue;
+    text-transform: uppercase;
+}
+.ex8{
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font: 2.5em Georgia, serif;
+    background-color: #fff;
+}
+.ex9{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-position: unset;
+    text-decoration-color: blue;
+    height: 100px;
+}
+.fl{
+    font-size: 2em;
+    color: green;
+    font-family: 'Silkscreen', sans-serif;
+    text-shadow: 3px -3px white;
+}
